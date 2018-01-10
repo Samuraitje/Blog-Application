@@ -1,0 +1,19 @@
+html
+	include head
+	body
+		include nav
+	div.title 
+		h1 My Blogs
+		hr
+	div.blogPostsWrapper
+		for message in messages
+			div.blogPostsTitle
+				table
+					tr
+						th Title
+						tr
+							td #{message.title}
+			div.blogPostsBody
+				table
+					tr
+						td #{message.body}

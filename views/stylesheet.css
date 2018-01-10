@@ -1,0 +1,406 @@
+body {
+	margin: 0;
+	background-color: #33ffd6;
+}
+
+p {
+	font-family: 'Josefin Sans';
+}
+
+/*-------------------------Navbar-------------------------*/
+nav ul {
+	list-style-type: none;
+	font-family: 'Josefin Sans';
+	padding: 0;
+	overflow: hidden;
+	background-color: #000;
+	text-align: center;
+	margin: 0;
+}
+
+nav li {
+	margin-left: 60px;
+}
+
+nav li a {
+	float: left;
+	background-color: #000;
+	font-size: 10pt;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	margin: 0;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #fff;
+	color: black;
+}
+
+nav:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*-------------------------Home Page------------------------*/
+
+.home {
+	background-color: #000;
+}
+
+.home h1 {
+	font-family: 'Josefin Sans';
+	font-size: 30pt;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 200px;
+	color: white;
+}
+
+.functions {
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.functionButton {
+	font-family: 'Josefin Sans';
+	font-size: 18pt;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 230px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	background-color: #000;
+	border-radius: 5px;
+}
+
+.functionButton a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/*------------------------Login Page------------------------*/
+
+.login {
+	margin: 0 auto;
+	width: 30%;
+	height: 400px;
+	font-family: 'Josefin Sans';
+}    
+
+.login h1 {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 20pt;
+	height: 20px;
+	color: black;
+}
+
+.login hr {
+	border: black solid 1pt;
+}
+
+.loginField {
+	border: solid #000 1px;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 230px;
+	height: 20px;
+	padding: 10px;
+}
+
+.loginField input {
+	font-family: 'Josefin Sans';
+	width: 230px;
+	height: 20px;
+}
+
+.loginButton {
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 230px;
+	height: 20px;
+	padding: 10px;
+}
+
+.loginButton button {
+	font-size: 10pt;
+	width: 230px;
+	border-radius: 5px;
+	background-color: #000;
+	color: #FFF;
+	border-color: #000;
+	height: 20px;
+}
+
+.register {
+	margin: 0 auto;
+	font-size: 10pt;
+	margin-top: 10px;
+	width: 230px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background-color: #000;
+	border-radius: 5px;
+}
+
+.register a {
+	text-decoration: none;
+	color: white;
+}
+
+
+/*-----------------------Sign up Page----------------------*/
+
+.signUp {
+	margin: 0 auto;
+	width: 100%;
+	height: 400px;
+	font-family: 'Josefin Sans';
+}    
+
+.signUp h1 {
+	margin: 0;
+	text-align: center;
+	font-size: 20pt;
+	height: 80px;
+	line-height: 80px;
+	color: white;
+	background-color: #000;
+}
+
+.signUpField {
+	border: solid #000 1px;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 230px;
+	height: 20px;
+	padding: 10px;
+}
+
+.signUpField input {
+	font-family: 'Josefin Sans';
+	width: 230px;
+	height: 20px;
+}
+
+.signUpButton {
+	margin: 0 auto;
+	font-size: 10pt;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 230px;
+	height: 20px;
+	padding: 10px;
+}
+
+.signUpButton button {
+	width: 230px;
+	border-radius: 5px;
+	background-color: #000;
+	color: #FFF;
+	border-color: #000;
+	height: 20px;
+}
+
+.signUpLogin {
+	font-family: 'Josefin Sans';
+	font-size: 10pt;
+	margin: 0 auto;
+	width: 230px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background-color: #000;
+	border-radius: 5px;
+	margin-bottom: 30px;	
+}
+
+.signUpLogin a {
+	text-decoration: none;
+	color: white;
+}
+
+/*----------------------New Blog Page-----------------------*/
+
+.newBlog {
+	margin: 0 auto;
+	width: 400px;
+	height: 400px;
+	font-family: 'Josefin Sans';
+}    
+
+.newBlog h1 {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 20pt;
+	height: 20px;
+	color: #000;
+}
+
+.newBlog hr {
+	border: black solid 1pt;
+}
+
+.newBlogTitle {
+	border: solid #000 1px;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 230px;
+	height: 20px;
+	padding: 10px;
+}
+
+.newBlogTitle input {
+	font-family: 'Josefin Sans';
+	width: 230px;
+	height: 20px;
+}
+
+.newBlogMessage {
+	border: solid #000 1px;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 230px;
+	height: 200px;
+	padding: 10px;
+}
+
+.newBlogMessage textarea {
+	font-family: 'Josefin Sans';
+	width: 230px;
+	height: 200px;
+}
+
+.newBlogButton {
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 230px;
+	height: 20px;
+	padding: 10px;
+}
+
+.newBlogButton button {
+	width: 230px;
+	border-radius: 5px;
+	background-color: #000;
+	color: #FFF;
+	border-color: #000;
+	height: 20px;
+}
+
+/*-----------------------All & My blogs page----------------------*/
+
+.title {
+	font-family: 'Josefin Sans';
+	margin: 0 auto;
+	width: 30%;
+	color: #000;
+}
+
+.title h1 {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 20pt;
+}
+
+.title hr {
+	border: black solid 1pt;
+}
+
+.blogPostsWrapper {
+	margin: 0 auto;
+	width: 30%;
+	font-family: 'Josefin Sans';
+} 
+
+.blogPostsWrapper {
+	margin: 0 auto;
+	width: 30%;
+	font-family: 'Josefin Sans';
+} 
+
+.blogPostsTitle {
+	box-sizing: border-box;
+	border: 1pt black solid;
+	width: 100%;
+	background-color: black;
+}
+
+.blogPostsTitle table{
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+.blogPostsTitle th{
+	color: white;
+	font-size: 12pt;
+}
+
+.blogPostsTitle td{
+	font-size: 16pt;
+	color: white;
+	border-top: solid white 1pt;
+	padding: 5px;
+}
+
+.blogPostsBody {
+	box-sizing: border-box;
+	border: 1pt black solid;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.blogPostsBody table{
+	padding: 10px;
+	font-size: 10pt;
+	color: black;
+}
+
+/*-------------------------Notification Messages-------------------------*/
+
+#messages {
+	width: 250px;
+	height: 25px;
+	margin: 0 auto;
+	font-size: 12;
+	line-height: 25px;
+}
+
+#messages .success {
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	background-color: #b3ffb3;
+	border-radius: 5px;
+}
+
+#messages .failure {
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	background-color: #ff9999;
+	border-radius: 5px;
+}
+
+.error {
+	width: 250px;
+	height: 25px;
+	margin: 0 auto;
+	font-size: 12;
+	line-height: 25px;
+	text-align: center;
+	background-color: #ff9999;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}

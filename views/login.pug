@@ -1,0 +1,16 @@
+html
+	include head
+	body
+	div.home
+		h1 Blog App
+	div.login
+		h1 Login
+		form(method='POST' action='/login')
+			div.loginField
+				input(type='text' placeholder='Username' name='username')
+			div.loginField
+				input(type='password' placeholder='Password' name='password')
+			div.loginButton
+				button(type='submit' value='submit') Login
+			div.register
+				a(href="/signUp") Create account

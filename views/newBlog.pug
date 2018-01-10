@@ -1,0 +1,15 @@
+html
+	include head
+	body
+		include nav.pug
+	div.newBlog
+		h1 Add New Blog
+		hr
+		form(method='POST' action='newBlog')
+			div.newBlogTitle
+				input(type='text' placeholder='Title' name='title')
+			div.newBlogMessage
+				textarea(type='text' name='body' rows='14' cols='26')
+			div.newBlogButton
+				button(type='submit' value='submit') Post New Blog
+			!= messages()

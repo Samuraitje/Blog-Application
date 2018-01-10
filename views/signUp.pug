@@ -1,0 +1,24 @@
+html
+	include head
+	body
+	div.signUp
+		h1 Create New User
+		form(method='POST' action='signUp')
+			div.signUpField
+				input(type='text' placeholder='First Name' name='firstname')
+			div.signUpField
+				input(type='text' placeholder='Last Name' name='lastname')
+			div.signUpField
+				input(type='text' placeholder='Email' name='email')
+			div.signUpField
+				input(type='text' placeholder='Username' name='username')
+			div.signUpField
+				input(type='password' placeholder='Password' name='password')
+			div.signUpButton
+				button(type='submit' value='submit') Register User
+			.signUpLogin
+				a(href="/login") Login
+			!= messages()
+			if errors
+				each error in errors 
+					div.error #{error.msg} 
