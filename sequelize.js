@@ -56,6 +56,7 @@ module.exports = () => {
 	Message.hasMany(Comment)
 	Comment.belongsTo(Message)
 
+	//Used to initialize the associations between the tables
 	// const sync = ()=>{
 	// 	return sequelize.sync({force: true})
 	// }

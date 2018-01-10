@@ -5,7 +5,7 @@ module.exports = (app, db, bcrypt) => {
 			title: 'Sign Up', 
 			success: req.session.success, 
 			error: req.session.errors
-		});
+		});		
 		req.session.errors = null;
 	});
 
